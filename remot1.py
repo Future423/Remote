@@ -1,7 +1,6 @@
 from tkinter import messagebox  
 from tkinter import *
 import Weathern2
-import wishme
 import nnotepad
 import ncalcultor
 import pyautogui
