@@ -90,7 +90,6 @@ class Calculator:
 
 def col():
     root = Tk()
-    root.minsize(349,330)
-    root.maxsize(349,330)
+    root.resizable(0,0)
     my_gui = Calculator(root)
     root.mainloop()
