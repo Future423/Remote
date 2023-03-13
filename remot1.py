@@ -16,7 +16,7 @@ root.resizable(0,0)
 def INF():
     messagebox.showinfo('Info','Created by Harshita, Sidharth and Nishant')
 def INF2():
-    messagebox.showinfo('Help','For FAQs or help contact harshitabiroka@gmail.com')
+    messagebox.showinfo('Help','For FAQs or help contact https://www.instagram.com/harshitabiroka/')
 def qit():
     root.destroy()   
 #menu-bar
