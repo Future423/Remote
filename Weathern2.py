@@ -32,11 +32,11 @@ def main():
 
 
     canvas = tk.Tk()
-    #canvas.geometry("500x550")
+
     canvas.title("Weather Window")
     canvas.configure(background="light cyan")
-    f = ("Bradley Hand ITC",25, "bold")
-    t = ("Baskerville Old Face", 35)
+    f = ("Arial Black",25, "bold")
+    t = ("Algerian", 35)
 
     textField = tk.Entry(canvas, justify='center', width = 20, font = t)
     textField.pack(pady = 20)
@@ -52,4 +52,5 @@ def main():
     canvas.mainloop()
 
 #main()
+
 
