@@ -114,3 +114,4 @@ def ran():
     TextArea.config(yscrollcommand=Scroll.set)
 
     root.mainloop()
+#ran()
