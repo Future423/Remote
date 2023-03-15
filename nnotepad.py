@@ -70,7 +70,7 @@ def ran():
     root.geometry("644x788")
 
     #Add TextArea
-    TextArea = Text(root, font="lucida 17")
+    TextArea = Text(root, font="Algerian 17")
     file = None
     TextArea.pack(expand=True, fill=BOTH)
 
