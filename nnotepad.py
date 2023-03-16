@@ -61,7 +61,7 @@ def paste():
     TextArea.event_generate(("<<Paste>>"))
 
 def about():
-    showinfo("Notepad", "Notepad by Nishant")
+    showinfo("Notepad", "Notepad by Harshita, Nishant and Sidharth \n for more go to https://github.com/Future423/Remote")
 
 def ran():
     global root,TextArea
