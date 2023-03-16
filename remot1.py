@@ -14,7 +14,7 @@ root.config(bg="azure")
 root.resizable(0,0)
 
 def INF():
-    messagebox.showinfo('Info','Created by Harshita, Sidharth and Nishant')
+    messagebox.showinfo('Info','Created by Harshita, Sidharth and Nishant \nfor more information go to \nhttps://github.com/Future423/Remote')
 def INF2():
     messagebox.showinfo('Help','For FAQs or help contact harshitabroka2002@gmail.com/')
 def qit():
