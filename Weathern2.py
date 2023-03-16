@@ -35,6 +35,8 @@ def main():
 
     canvas.title("Weather Window")
     canvas.configure(background="light cyan")
+    canvas.geometry("500x550")
+    canvas.resizable(0,0)
     f = ("Arial Black",25, "bold")
     t = ("Algerian", 35)
 
@@ -47,10 +49,6 @@ def main():
     label1.pack()
     label2 = tk.Label(canvas,bg='light cyan', font=f)
     label2.pack()
-    canvas.minsize(500,550)
-    canvas.maxsize(500,550)
     canvas.mainloop()
 
 #main()
-
-
