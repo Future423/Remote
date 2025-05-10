@@ -14,9 +14,27 @@ root.config(bg="azure")
 root.resizable(0,0)
 
 def INF():
-    messagebox.showinfo('Info','Created by Harshita, Sidharth and Nishant \nfor more information go to \nhttps://github.com/Future423/Remote')
+    messagebox.showinfo('Info',
+                        '🐍 Python Assist v1.0\n\n'
+                        'A lightweight toolkit with:\n'
+                        '• Notepad\n'
+                        '• Calculator\n'
+                        '• Weather Report\n'
+                        '• Screenshot Tool\n\n'
+                        'Built with ❤️ using Python.\n'
+                        '© 2025 Python Assist')
+
 def INF2():
-    messagebox.showinfo('Help','For FAQs or help contact harshitabroka2002@gmail.com/')
+    messagebox.showinfo('Help',
+                        '🆘 Python Assist - Help Guide\n\n'
+                        '• 📝 Notepad: Open a simple text editor to write and save notes.\n'
+                        '• 🧮 Calculator: Perform basic arithmetic calculations.\n'
+                        '• 🌦️ Weather: Enter a city name to get live weather updates.\n'
+                        '• 📸 Screenshot: Minimizes this app, captures the full screen, and lets you save it anywhere.\n\n'
+                        '✅ Tip: Use the menu options for Info, Help, or to Exit the app.\n\n'
+                        'Built with ❤️ using Python.\n'
+                        'Enjoy using Python Assist!')
+
 def qit():
     root.destroy()  
     
